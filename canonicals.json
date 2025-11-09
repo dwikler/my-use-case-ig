@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "my-use-case-ig",
+    "type" : "ImplementationGuide",
+    "url" : "https://dwikler.github.io/my-use-case-ig/ImplementationGuide/my-use-case-ig",
+    "version" : "0.1.0",
+    "name" : "MyUseCaseIG"
+  },
+  {
+    "id" : "MyUseCasePatient",
+    "type" : "StructureDefinition",
+    "url" : "https://dwikler.github.io/my-use-case-ig/StructureDefinition/MyUseCasePatient",
+    "version" : "0.1.0",
+    "name" : "MyUseCasePatient"
+  }
+]

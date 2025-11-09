@@ -1,0 +1,20 @@
+# my-use-case-ig#0.1.0: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Resource Profiles
+
+* [MyUseCasePatient](StructureDefinition-MyUseCasePatient.md)
+
+### ImplementationGuides
+
+* [MyUseCaseIG](index.md)
+
+### Examples
+
+* [PatientExample (Patient)](Patient-PatientExample.md)

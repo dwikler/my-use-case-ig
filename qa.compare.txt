@@ -1,0 +1,21 @@
+MyUseCaseIG : Validation Results
+=========================================
+
+err = 0, warn = 5, info = 1
+$--
+Generated $--. FHIR version $-- for my-use-case-ig#$-- (canonical = https://dwikler.github.io/my-use-case-ig)
+ Build Errors : 0 / 4 / 0
+ /home/runner/work/my-use-case-ig/my-use-case-ig/fsh-generated/resources/ImplementationGuide-my-use-case-ig : 0 / 0 / 1
+ /home/runner/work/my-use-case-ig/my-use-case-ig/fsh-generated/resources/Patient-PatientExample : 0 / 1 / 1
+ /home/runner/work/my-use-case-ig/my-use-case-ig/fsh-generated/resources/StructureDefinition-MyUseCasePatient : 0 / 0 / 2
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-my-use-case-ig.json ==
+== fsh-generated/resources/Patient-PatientExample.json ==
+WARNING: Patient/PatientExample: Patient.identifier[0].system: No definition could be found for URL value 'https://myHIS.myhospital.com/identifiers/patient'
+== fsh-generated/resources/StructureDefinition-MyUseCasePatient.json ==
+INFORMATION: StructureDefinition/MyUseCasePatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated

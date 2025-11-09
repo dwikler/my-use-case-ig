@@ -1,0 +1,12 @@
+MyUseCaseIG
+=========================================
+
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/home/runner/work/my-use-case-ig/my-use-case-ig/fsh-generated/resources/Patient-PatientExample.json: line 22, col 67, Warning - No definition could be found for URL value 'https://myHIS.myhospital.com/identifiers/patient' (INVALID)
+/home/runner/work/my-use-case-ig/my-use-case-ig/fsh-generated/resources/StructureDefinition-MyUseCasePatient.json: line 1, col 41424, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+
+err = 0, warn = 5, info = 1
+IG Publisher Version: 2.0.26
